@@ -7,7 +7,7 @@ get_header();
 ?>
 
 <!-- Blog & Sidebar Section -->
-<section id="section" class="section">		
+<section id="section" class="slide">		
 	<img src="http://spa.test/wp-content/uploads/2018/09/home_banner.jpg" alt="pandanus">
 	<div class="slide-content">
 		<h2>The Essence of Natural 
@@ -19,9 +19,16 @@ get_header();
 <section class="chat-now">
 	<h2>Make Appointment</h2>
 	<p>Chat now</p>
-	ICON
+	<div class="icon">
+		<a href=""><img src="http://spa.test/wp-content/uploads/2018/09/facebook-icon.png" alt=""></a>
+		<a href=""><img src="http://spa.test/wp-content/uploads/2018/09/zalo-icon.png" alt=""></a>
+		<a href=""><img src="http://spa.test/wp-content/uploads/2018/09/mail-icon.png" alt=""></a>
+		<a href=""><img src="http://spa.test/wp-content/uploads/2018/09/viber-icon.png" alt=""></a>
+		<a href=""><img src="http://spa.test/wp-content/uploads/2018/09/phone-icon.png" alt=""></a>
+	</div>
 </section>
 <hr>
+
 <section class="service">
 	<h2>Amazing Service</h2>
 	<p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
@@ -30,15 +37,49 @@ get_header();
 	</div>
 	<div class="row">
 		<div class="col-md-4">
-			a
+			<div class="service-position">
+				<img src="http://spa.test/wp-content/uploads/2018/09/service1.png" alt="" class="service-img">
+				<div class="service1-info">
+					<h2>Herbal Theraby</h2>
+					<p>Dolor sit amet, consectetur adipl-sicing. Dolor sit amet, consectetur adipl-sicing. Dolor sit amet, consectetur adipl-sicing. Dolor sit amet, consectetur adipl-sicing.</p>
+					<a href="">Read More ...</a>
+				</div>
+			</div>	
 		</div>
 		<div class="col-md-4">
-			b
+			<div class="service-position">
+				<img src="http://spa.test/wp-content/uploads/2018/09/service2.png" alt="" class="service-img">
+				<div class="service2-info">
+					<h2>Herbal Theraby</h2>
+					<p>Dolor sit amet, consectetur adipl-sicing. Dolor sit amet, consectetur adipl-sicing. Dolor sit amet, consectetur adipl-sicing. Dolor sit amet, consectetur adipl-sicing.</p>
+					<a href="">Read More ...</a>
+				</div>
+			</div>	
 		</div>
 		<div class="col-md-4">
-			c
+			<div class="service-position">
+				<img src="http://spa.test/wp-content/uploads/2018/09/service3.png" alt="" class="service-img">
+				<div class="service3-info">
+					<h2>Herbal Theraby</h2>
+					<p>Dolor sit amet, consectetur adipl-sicing. Dolor sit amet, consectetur adipl-sicing. Dolor sit amet, consectetur adipl-sicing. Dolor sit amet, consectetur adipl-sicing.</p>
+					<a href="">Read More ...</a>
+				</div>
+			</div>	
 		</div>
 	</div>
+</section>
+<section class="description">
+	<img src="http://spa.test/wp-content/uploads/2018/09/Xu-huong-moi-nhat-khi-trang-tri-phong-spa-1.jpg" alt="">
+	<div class="description-content">
+		<h2>Making Everyone Beautiful</h2>
+		<p>We at Dream Spa provie various services to the nature of the clients We at Dream Spa provie various services to the nature of the clients We at Dream Spa provie various services to the nature of the clients</p>
+		<button>Read More</button>
+	</div>
+</section>
+<section class="info-spa">
+	<h2>Welcome to Pandanus Spa Hoi An</h2>
+	<p>Welcome to Pandanus Spa Hoi An Welcome to Pandanus Spa Hoi An Welcome to Pandanus Spa Hoi An Welcome to Pandanus Spa Hoi An Welcome to Pandanus Spa Hoi An Welcome to Pandanus Spa Hoi An Welcome to Pandanus Spa Hoi An Welcome to Pandanus Spa Hoi An Welcome to Pandanus Spa Hoi An Welcome to Pandanus Spa Hoi An</p>
+	<a href="">Read More ></a>
 </section>
 <!-- End of Blog & Sidebar Section -->
 <div class="clearfix"></div>

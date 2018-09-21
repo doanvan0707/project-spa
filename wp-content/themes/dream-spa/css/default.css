@@ -145,11 +145,19 @@ ins span {
 }
 
 /*CSS EDIT*/
+
+hr {
+  color: #000;
+  background: #000;
+  border: 0;
+  height: 3px;
+}
+
 #section {
 	padding: 0 !important;
 }
 
-.section {
+.slide {
 	position: relative;
 }
 
@@ -178,15 +186,98 @@ ins span {
 .chat-now p {
 	color: #ff9835;
 	font-size: 30px;
+	text-shadow: 2px 2px 2px #000;
 }
 .service {
 	text-align: center;
+	margin-bottom:100px;
 }
 .service p {
 	margin: 0;
 }
 .img-service img {
 	text-align: center;
-    margin: 15px 0 !important;
+    margin: 15px 0 90px !important;
     display: inline-block;
+}
+.service1-info,
+.service2-info,
+.service3-info {
+    padding-top: 70px;	
+}
+.service1-info {
+	background: #e5d8ac;
+	border: solid 10px #dbcea4;
+}
+.service2-info {
+	background: #e6adbc;
+	border: solid 10px #daa2af;
+}
+.service3-info {
+	background: #aed8e6;
+	border: solid 10px #a6ceda;
+}
+.service-position {
+	position: relative;
+}
+.service-img {
+    position: absolute;
+    top: -72px;
+    left: 150px;
+}
+
+
+.description {
+	position: relative;
+}
+
+.description-content {
+	position: absolute;
+    top: 40%;
+    left: 15%;
+}
+.description-content button {
+	color: #fff;
+	background: #515151;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.info-spa {
+	text-align: center;
+	margin: 30px 0;
+}
+.info-spa h2 {
+	color: #ff9835;
+	font-size: 40px;
+}
+.info-spa p {
+	color: #0e1eef;
+}
+.info-spa a {
+	font-size: 20px !important;
+}
+
+footer {
+	background: #a4a4a4;
+	border-top: solid 2px #00adef;
+}
+
+footer p {
+    margin-top: 30px;
+}
+.coppyright {
+	color: #000;
+	font-size: 20px;
+}
+.newstarvn {
+	color: #182dfa;
+	font-size: 20px;
+	text-shadow: 2px 2px 2px #000;
+}
+.icon img {
+	margin-top: 20px;
+	display: inline-block;
 }
